@@ -1,6 +1,6 @@
-# Meergo Node SDK
+# Meergo Node.js SDK
 
-The Meergo Node SDK lets you send customer event data from your Node applications to your specified destinations.
+The Meergo Node.js SDK lets you send customer event data from your Node applications to your specified destinations.
 
 ## SDK setup requirements
 
@@ -27,7 +27,7 @@ Refer to the Meergo events documentation for more information on the supported e
 
 ## License
 
-The Meergo Node SDK is released under the [MIT license](License.md).
+The Meergo Node.js SDK is released under the [MIT license](License.md).
 
 Copyright &copy; 2024 Open2b
 
