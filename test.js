@@ -10,7 +10,7 @@ const noop = () => {}
 
 const context = {
   library: {
-    name: 'analytics-node',
+    name: 'analytics-nodejs',
     version
   }
 }
@@ -43,7 +43,7 @@ test.before.cb(t => {
       }
 
       const ua = req.headers['user-agent']
-      if (ua !== `analytics-node/${version}`) {
+      if (ua !== `analytics-nodejs/${version}`) {
         return res.status(400).json({
           error: { message: 'invalid user-agent' }
         })

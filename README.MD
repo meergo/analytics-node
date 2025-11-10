@@ -11,7 +11,7 @@ The Meergo Node.js SDK lets you send customer event data from your Node applicat
 ## Using the SDK
 
 ```js
-import Analytics from 'meergo-analytics-node';
+import Analytics from 'meergo-analytics-nodejs';
 
 const client = new Analytics('<event write key>', '<endpoint>');
 

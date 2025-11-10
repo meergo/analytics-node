@@ -177,7 +177,7 @@ class Analytics {
     message.type = type
     message.context = Object.assign({
       library: {
-        name: 'analytics-node',
+        name: 'analytics-nodejs',
         version
       }
     }, message.context)
@@ -287,7 +287,7 @@ class Analytics {
     // and https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/setRequestHeader),
     // but browsers such as Chrome and Safari have not caught up.
     if (typeof window === 'undefined') {
-      req.headers['user-agent'] = `analytics-node/${version}`
+      req.headers['user-agent'] = `analytics-nodejs/${version}`
     }
 
     if (this.timeout) {
